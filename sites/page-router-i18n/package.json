@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@netlify/functions": "^2.5.1",
-    "@netlify/plugin-nextjs": "file:netlify-plugin-nextjs-5.0.0-beta.8.tgz",
+    "@netlify/plugin-nextjs": "file:netlify-plugin-nextjs-5.0.0-beta.8-a1.tgz",
     "next": "^14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
