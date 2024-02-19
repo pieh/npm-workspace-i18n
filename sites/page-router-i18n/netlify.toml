@@ -5,8 +5,3 @@ publish = "sites/page-router-i18n/.next"
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
-[build.environment]
-NETLIFY_OTLP_TRACE_EXPORTER_URL = "https://api.honeycomb.io/v1/traces"
-OTEL_EXPORTER_OTLP_ENDPOINT = "https://api.honeycomb.io"
-OTEL_EXPORTER_OTLP_HEADERS = "x-honeycomb-team=17d2fbf1c2f2ef95543f5310872bdb53,x-honeycomb-dataset=next"
-OTEL_SERVICE_NAME = "Next runtime"
