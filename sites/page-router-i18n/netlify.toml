@@ -1,7 +1,6 @@
 [build]
-command = "npm run build -w page-router"
+command = "pnpm --filter page-router run build"
 publish = "sites/page-router-i18n/.next"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
-
